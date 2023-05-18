@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>To do</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__wrapper">
+            <h1 class="header__wel">To do list</h1>
+            <p class="header__author">by Funtov Nikita</p>
+        </div>
+    </div>
+    <div class="add">
+    <form class="hidden" id="mainForm">
+        <input action="text" id="form"></input>
+        <input type="button" onclick="Subm()" value="Add!"></input>
+    </form>
+    <button class="plus" onclick="addNew()">+</button>
+    </div>
+    <div class="event" id="example">
+        <p class="event__text">Press "+" to add new event</p>
+        <button class="event__don" onclick="deleteEvent()">Done!</button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
