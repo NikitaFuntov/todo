@@ -14,9 +14,6 @@ function Subm() {
     add.remove("wiew")
     add.add("hidden")
     console.log(least)
-    if(least>0){
-        document.getElementById('example').style = "display:none;"
-    }
     newEvent()
     document.getElementById('form').value = ''
 }
@@ -45,6 +42,7 @@ function newEvent(){
         document.body.insertBefore(newDiv,currentDiv)
         eventNum++
         least++
+        document.getElementById('example').style = "display:none;"
     }
 }
 
