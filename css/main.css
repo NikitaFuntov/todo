@@ -60,4 +60,8 @@
     margin-top: 1%;
     width: 90%;
   }
+  .add {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=main.css.map */
