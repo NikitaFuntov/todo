@@ -21,7 +21,7 @@ function Subm() {
 function newEvent(){
     let data = document.getElementById('form').value
     // if (data == '' || data == ' ') {
-    if(!data.trim()){
+    if(!data.trim() || data == 'ㅤ'){
         alert("You can't add empty event")
         least = 0
     }else{
