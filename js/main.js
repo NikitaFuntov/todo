@@ -20,7 +20,7 @@ function Subm() {
 
 function newEvent(){
     let data = document.getElementById('form').value
-    if (data == '') {
+    if (data == '' || data == ' ') {
         alert("You can't add empty event")
         least = 0
     }else{
